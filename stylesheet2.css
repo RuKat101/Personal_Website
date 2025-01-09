@@ -71,11 +71,27 @@ body {
 	align-items: center;         
 }
 
+/* Section Div */
+.section_div {
+	background-color: var(--text1);
+	height: 50vh;
+	width: 90vw;
+}
+
+/* Section 1 and 2 IDs */
+
+#s1div {
+	
+}
+
+#s2div {
+
+}
+
 /* Section 1 */
-.section1 {
+/* .section1 {
 	width: 90vw;
 	height: 50vh;
-	background-color: var(--text1);
 	border-bottom: 1px solid -var(--navbar);
 	border: 1px solid #FFFFFF;
 	display: flex;
@@ -83,7 +99,7 @@ body {
 	justify-content: center;     
 	align-items: center;         
 	
-}
+} */
 
 .section1 h2 span{
 	font-size: 2rem;
