@@ -29,7 +29,14 @@ body {
 	flex-direction: column;
 	
 }
+/* Header: title */
 
+.title {
+	margin: auto;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: var(--navbar);
+}
 /* Header 1 */
 .header_nav_div {
 	margin-top: 10px;
@@ -46,7 +53,7 @@ body {
 }
 
 .header_nav a  {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -172,7 +179,8 @@ body {
 
 
 #s2div {
-
+	margin: auto;
+	padding: 2%;
 }
 
 /* Section 1 */
