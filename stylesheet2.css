@@ -178,13 +178,9 @@ body {
 
 
 
-#s2div {
-	margin: auto;
-	padding: 2%;
-}
 
 /* Section 1 */
-/* .section1 {
+.section2 {
 	width: 90vw;
 	height: 50vh;
 	border-bottom: 1px solid -var(--navbar);
@@ -194,9 +190,9 @@ body {
 	justify-content: center;     
 	align-items: center;         
 	
-} */
-
-.section1 h2 span{
+} 
+/* Fix to align with Section 2: About me, figure out what this means lol */
+.section h2 span{
 	font-size: 2rem;
 	color: #ffffff;
 	margin-bottom: 0px;
