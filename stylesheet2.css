@@ -81,7 +81,7 @@ body {
 /* Section Div */
 .section_div {
 	background-color: var(--text1);
-	height: 50vh;
+	height: 55vh;
 	width: 90vw;
 }
 
@@ -163,11 +163,11 @@ body {
 	width: 15px;
 	margin: 0 2px;
 	background-color: #f0ae63;
-};
+
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
-}
+};
 
 .active, .dot:hover {
 	background-color:#f6e9a2;
@@ -187,10 +187,21 @@ body {
 	border: 1px solid #FFFFFF;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;     
-	align-items: center;         
+	/* justify-content: center;  */  
+	/*align-items: center; */        
 	
 } 
+
+
+.aboutme_text {
+	width: 50%;
+	left: 0px;
+}
+
+.profile_picture {
+	
+}
+
 /* Fix to align with Section 2: About me, figure out what this means lol */
 .section h2 span{
 	font-size: 2rem;
