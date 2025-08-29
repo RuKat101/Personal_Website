@@ -9,21 +9,20 @@ body {
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
+	padding: 2rem;
 }
 /* Color Scheme */
 :root {
-	--background: #fefae0;
-	--navbar: #d4a373;
+	--background: #ffffff;
+	--navbar: #f0d7a8;
 	--text1: #FAEDCD;
-	--text2: #ccd5ae;
+	--text2: #afdfee;
 }
 
 /* Container */
 .container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
+	width: 90vw;
+	margin: 0;
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -45,7 +44,7 @@ body {
 
 
 .header_nav {
-	width: 90vw;
+	max-width: 100%;
 	height: auto;
 	background-color: var(--navbar);
 	border-bottom: 1px solid var(--navbar);
@@ -82,7 +81,9 @@ body {
 .section_div {
 	background-color: var(--text1);
 	height: 55vh;
-	width: 90vw;
+	max-width: 100%;
+	padding: 2rem;
+	
 }
 
 /* Section 1 and 2 IDs */
@@ -203,6 +204,8 @@ body {
 }
 
 /* Fix to align with Section 2: About me, figure out what this means lol */
+
+
 .section h2 span{
 	font-size: 2rem;
 	color: #ffffff;
@@ -237,3 +240,5 @@ body {
 	text-align: center;
 	margin-top: 0px;
 }
+
+
